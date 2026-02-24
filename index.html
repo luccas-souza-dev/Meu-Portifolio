@@ -1,0 +1,361 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Desenvolvedor Front-End Pleno focado em interfaces modernas, performance e UX.">
+    <title>Dev Front-End | Portfólio Profissional</title>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="logo">Dev Adan Luccas<span class="highlight">.Front</span></a>
+
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li><a href="#projetos" class="nav__link">Projetos</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#contato" class="nav__link btn btn--outline">Contato</a></li>
+                </ul>
+                <button class="mobile-toggle" aria-label="Abrir menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero__content fade-in">
+                <span class="hero__greeting">Olá, eu construo experiências digitais.</span>
+                <h1 class="hero__title">Front-End Developer focado em <br> <span class="text-gradient">performance e
+                        usabilidade.</span></h1>
+                <p class="hero__subtitle">
+                    Focado em transformar designs em código limpo, organizado e fiel ao visual proposto. Com 4 meses de
+                    experiência, venho desenvolvendo interfaces responsivas e acessíveis, sempre buscando evolução
+                    técnica e atenção aos detalhes.
+                </p>
+                <div class="hero__actions">
+                    <a href="#projetos" class="btn btn--primary">Ver Projetos</a>
+                    <a href="https://github.com/Adan-Lucaas" target="_blank" class="btn btn--ghost">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Mim -->
+        <section id="sobre" class="section about">
+            <div class="container">
+                <h2 class="section__title fade-in">Sobre Mim</h2>
+                <div class="about__grid fade-in">
+                    <div class="about__text">
+                        <p>
+                            Sou desenvolvedor web em início de carreira, com foco em construir interfaces bem
+                            estruturadas, responsivas e funcionais. Tenho conhecimento em HTML5 e CSS3, aplicando
+                            <Strong>boas
+                                práticas de desenvolvimento</Strong> e buscando sempre <strong>clareza visual</strong>,
+                            organização e desempenho desde
+                            o início dos projetos</strong> e <strong> boa eficiência técnica</strong>.
+                        </p>
+                        <p>
+                            Atualmente, estudo JavaScript, TypeScript, Node.js e Next.js de forma autodidata, evoluindo
+                            por meio de projetos práticos. Acredito que uma boa experiência web deve ser simples, rápida
+                            e acessível, e meu objetivo é crescer constantemente, unindo aprendizado técnico e atenção
+                            aos detalhes.
+                        </p>
+                        <div class="about__stats">
+                            <div class="stat">
+                                <span class="stat__number">4+</span>
+                                <span class="stat__label">Meses de Exp.</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number">10+</span>
+                                <span class="stat__label">Projetos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__tech-visual">
+                        <!-- Elemento visual abstrato feito com CSS -->
+                        <div class="code-block">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line short"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="section projects">
+            <div class="container">
+                <h2 class="section__title fade-in">Projetos Selecionados</h2>
+                <div class="projects__grid">
+
+                    <!-- Projeto 2 -->
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-3">
+                            <img src="assets/portifólio.png" alt="Imagem da pagina inicial do projeto de Landing Page">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Portifolio desenvolvedor Front-End</h3>
+                            <p class="project-card__desc">Portifolio completo de um desenvolvedor Front-End, com
+                                projetos e habilidades.</p>
+                            <ul class="project-card__tags">
+                                <li>HTMLL5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://portifolio-adan-luccas.vercel.app/" target="_blank"
+                                    class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/portifolio" target="_blank"
+                                    class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 3 -->
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-1">
+                            <img src="./assets/hamburgueria.png"
+                                alt="Imagem da pagina inicial do projeto de Hamburgueria">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Site com Cardapio integrado</h3>
+                            <p class="project-card__desc">Site de hamburgueria com cardápio integrado, funcionalidades
+                                de
+                                pedidos e confirmação via WhatsApp.</p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://hamburgueria-landing-page-cardapio.vercel.app/" target="_blank"
+                                    class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/Hamburgueria-LandingPage-Cardapio"
+                                    target="_blank" class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 4 -->
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-2">
+                            <img src="assets/landing.png" alt="Imagem da pagina inicial do projeto de Landing Page">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Landing Page</h3>
+                            <p class="project-card__desc">Landing page de alta conversão com animações complexas
+                                baseadas em scroll e otimização de Core Web Vitals.</p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://supervisor-comercial-qxro5r938-adan-lucas-projects.vercel.app/"
+                                    target="_blank" class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/Supervisor-Comercial" target="_blank"
+                                    class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-3">
+                            <img src="./assets/revisional.png " alt="Imagem da pagina inicial de revisional de contrato ">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Landing Page de Revisional de Contrato</h3>
+                            <p class="project-card__desc">Aplicação de landing page para revisional de contrato com design
+                                responsivo, funcionalidades de agendamentos.</p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="hhttps://landiing-page-para-revisional-de-ju.vercel.app/" target="_blank"
+                                    class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/Landiing-Page-para-Revisional-de-juros" target="_blank"
+                                    class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 5 -->
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-3">
+                            <img src="./assets/advocacia.png" alt="Imagem da pagina inicial do projeto de Advocacia">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Landing Page Advocacia</h3>
+                            <p class="project-card__desc">Aplicação de landing page para advocacia com design
+                                responsivo, funcionalidades de agendamentos.</p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://landing-page-advocacia-azure.vercel.app/" target="_blank"
+                                    class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/Landing-Page-Advocacia" target="_blank"
+                                    class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 6 -->
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-1">
+                            <img src="./assets/pagina-de-busca.png"
+                                alt="Imagem da pagina de busca de faculdades privadas de São paulo">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Busca das Faculdades Privadas de São Paulo</h3>
+                            <p class="project-card__desc">Aplicação de busca de faculdades privadas de São Paulo com
+                                design responsivo e funcionalidades de busca. <b>Imersão Alura + Gemini</b></p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Json</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://maiores-universidades-de-sao-paulo.vercel.app/" target="_blank"
+                                    class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/Maiores-Universidades-de-Sao-Paulo"
+                                    target="_blank" class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 7 -->
+                    <article class="project-card fade-in">
+                        <div class="project-card__image project-bg-2">
+                            <img src="./assets/alura.png" alt="Imagem do projeto Alura">
+                        </div>
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Aula de HTML & CSS Alura Professora Moni Hillman</h3>
+                            <p class="project-card__desc">Projeto desenvolvido durante a aula de HTML e CSS com a
+                                professora Moni Hillman.</p>
+                            <ul class="project-card__tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://aula-alura-moni-hillman.vercel.app/" target="_blank"
+                                    class="link-arrow">Demo Live</a>
+                                <a href="https://github.com/Adan-Lucaas/Aula-Alura-" target="_blank"
+                                    class="link-github">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section__title fade-in">Stack & Habilidades</h2>
+                <div class="skills__wrapper fade-in">
+                    <div class="skills__category">
+                        <h3>Core</h3>
+                        <ul class="skills__list">
+                            <li>HTML5 Semântico</li>
+                            <li>CSS3 (Flex/Grid)</li>
+                            <li>JavaScript (ES6+) - in progress </li>
+                            <li>TypeScript - in progress</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills__category">
+                        <h3>Soft Skills</h3>
+                        <ul class="skills__list">
+                            <li>Boa comunicação</li>
+                            <li>Gestão de pessoas</li>
+                            <li>Liderança</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Resolução de problemas</li>
+                            <li>Responsabilidade pessoal</li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="skills__category">
+                        <h3>Frameworks & Libs</h3>
+                        <ul class="skills__list">
+                            <li>React.js / Next.js - in progress</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </div>
+
+                    <div class="skills__category">
+                        <h3>Conceitos & Tools</h3>
+                        <ul class="skills__list">
+                            <li>Git & GitHub Flow</li>
+                            <li>Web Acessibility (WCAG)</li>
+                            <li>Responsive Design</li>
+                            <li>CI/CD Basics</li>
+                            <li>Performance (Lighthouse)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="section contact">
+            <div class="container contact__container fade-in">
+                <h2 class="section__title">Vamos conversar?</h2>
+                <p class="contact__text">
+                    Estou sempre aberto a discutir novos projetos, oportunidades de trabalho ou apenas trocar ideias
+                    sobre tecnologia.
+                </p>
+                <div class="contact__links">
+                    <a href="mailto:imperiocode.ofc@gmail.com" class="btn btn--primary">Enviar E-mail</a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/luccas-souza-dev/" target="_blank"
+                            aria-label="LinkedIn">LinkedIn</a>
+                        <a href="https://github.com/Adan-Lucaas" target="_blank" aria-label="GitHub">GitHub</a>
+                        <a href="https://wa.me/5511933165088" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Dev Front-End. Todos os direitos reservados.</p>
+            <p class="footer__credit">Design & Code by Me</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
